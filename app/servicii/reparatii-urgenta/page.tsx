@@ -1,6 +1,5 @@
-import type { Metadata } from "next"
-import { HeroSection } from "@/components/hero-section"
-import { ContactForm } from "@/components/contact-form"
+import type { Metadata } from "next";
+import { HeroSection } from "@/components/hero-section";
 
 export const metadata: Metadata = {
   title: "Reparații Urgență Acoperișuri 24/7 | Intervenții Rapide București",
@@ -8,7 +7,7 @@ export const metadata: Metadata = {
     "Reparații urgență acoperișuri 24/7 în București și Ilfov. Infiltrații, furtuni, țigle căzute. Echipă disponibilă non-stop. Intervenție în maxim 2 ore!",
   keywords:
     "reparatii urgenta acoperis, urgente acoperis 24/7, infiltratii urgenta, furtuna acoperis, interventie rapida",
-}
+};
 
 export default function ReparatiiUrgenta() {
   return (
@@ -25,11 +24,9 @@ export default function ReparatiiUrgenta() {
           "Rapoarte foto pentru asigurări",
         ]}
         ctaText="URGENȚĂ - Sună ACUM!"
-        imageSrc="/placeholder.svg?height=400&width=600"
+        imageSrc="/urgent-roofing.jpeg"
         imageAlt="Reparații urgență acoperișuri 24/7"
       />
-
-      <ContactForm />
     </>
-  )
+  );
 }
