@@ -43,7 +43,7 @@ export default function DulgherieAcoperis() {
         "Intervenții punctuale",
         "Garanție extinsă",
       ],
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/dulgherie3.jpg",
     },
     {
       title: "Executam Mansarda la Cererea Clientului",
@@ -54,7 +54,7 @@ export default function DulgherieAcoperis() {
         "Intervenții punctuale",
         "Garanție extinsă",
       ],
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/dulgherie8.jpeg",
     },
     {
       title: "Reconditionare Mansarda",
@@ -65,7 +65,7 @@ export default function DulgherieAcoperis() {
         "Intervenții punctuale",
         "Garanție extinsă",
       ],
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/dulgherie2.jpg",
     },
   ];
 
@@ -103,7 +103,7 @@ export default function DulgherieAcoperis() {
           "Echipă de dulgheri specializați",
           "Garanție 15 ani pentru structură",
         ]}
-        imageSrc="/placeholder.svg?height=400&width=600"
+        imageSrc="/dulgherie4.jpg"
         imageAlt="Dulgherie șarpantă acoperiș profesional"
       />
 
@@ -342,7 +342,7 @@ export default function DulgherieAcoperis() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=400&width=500"
+                src="/1dulgherie.jpg"
                 alt="Detalii dulgherie lemn acoperiș"
                 width={500}
                 height={400}

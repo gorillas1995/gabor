@@ -90,7 +90,7 @@ export function Footer() {
                   href="tel:+40722123456"
                   className="hover:text-white transition-colors"
                 >
-                  +40 722 123 456
+                  +40 727 416 444
                 </a>
               </div>
               <div className="flex items-center gap-2">
@@ -99,7 +99,7 @@ export function Footer() {
                   href="mailto:contact@montaj-acoperisuri.ro"
                   className="hover:text-white transition-colors"
                 >
-                  contact@montaj-acoperisuri.ro
+                  geraldprofil@gmail.com
                 </a>
               </div>
               <div className="flex items-start gap-2">

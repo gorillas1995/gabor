@@ -193,7 +193,7 @@ export function Navigation() {
             {/* CTA Button */}
             <div className="hidden lg:flex items-center gap-2">
               <Button asChild className="bg-red-600 hover:bg-red-700">
-                <Link href="tel:+40722123456">
+                <Link href="tel:+40727416444">
                   <Phone className="h-4 w-4 mr-2" />
                   <span className={inter.className}>Suna Acum</span>
                 </Link>
