@@ -42,6 +42,12 @@ export default function RootLayout({
   return (
     <html lang="ro">
       <head>
+        {/* Google Search Console site verification meta tag - keep this to stay verified */}
+        <meta
+          name="google-site-verification"
+          content="_8ZrZAKwTzgbnWURJ1EWaRnKHP2qMGKGBYmtUNGCPG4"
+        />
+
         {/* Google tag (gtag.js) - loads Google Ads tag on every page */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-444007051"
