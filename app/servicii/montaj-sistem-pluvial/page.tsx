@@ -3,7 +3,6 @@ import Image from "next/image";
 import { Montserrat, Inter } from "next/font/google";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Script from "next/script"; // Optimized script loading for Next.js
-import { useRouter } from "next/navigation"; // Client-side navigation after submit
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 const inter = Inter({ subsets: ["latin"] });
@@ -15,8 +14,6 @@ export const metadata: Metadata = {
 };
 
 export default function MontajSistemPluvial() {
-  const router = useRouter(); // Used to redirect to the conversion page
-
   const services = [
     {
       title: "Consultanta Personalizata",
