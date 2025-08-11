@@ -1,6 +1,7 @@
 import type React from "react";
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
@@ -41,6 +42,22 @@ export default function RootLayout({
   return (
     <html lang="ro">
       <head>
+        {/* Google tag (gtag.js) - loads Google Ads tag on every page */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-444007051"
+          strategy="afterInteractive"
+        />
+
+        {/* Initialize gtag and configure with your Google Ads ID */}
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-444007051');
+  `}
+        </Script>
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -54,8 +71,10 @@ export default function RootLayout({
               telephone: "+40727416444",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Strada Exemplu 123",
+                streetAddress: "Bulevardul Unirii 1",
                 addressLocality: "București",
+                addressRegion: "Sector 3",
+                postalCode: "030167",
                 addressCountry: "RO",
               },
               geo: {
@@ -63,16 +82,16 @@ export default function RootLayout({
                 latitude: "44.4268",
                 longitude: "26.1025",
               },
-              openingHours: "Mo-Fr 08:00-18:00, Sa 08:00-14:00",
+              openingHours: "Mo-Su 00:00-24:00",
               priceRange: "$",
               serviceArea: {
                 "@type": "GeoCircle",
                 geoMidpoint: {
                   "@type": "GeoCoordinates",
-                  latitude: "44.4268",
-                  longitude: "26.1025",
+                  latitude: "45.9432", // Center of Romania
+                  longitude: "24.9668", // Center of Romania
                 },
-                geoRadius: "50000",
+                geoRadius: "500000", // 500km radius covers most of Romania
               },
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
