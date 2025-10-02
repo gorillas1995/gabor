@@ -24,17 +24,24 @@ const inter = Inter({ subsets: ["latin"] });
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title:
-    "Montaj și Reparatii Acoperisuri Bucuresti | Servicii Complete Acoperisuri",
+  title: "Montaj și Reparatii Acoperisuri Bucuresti | +40 727 416 444",
   description:
-    "Servicii profesionale montaj și reparatii acoperisuri in Bucuresti si Ilfov. Dulgherie, tigla ceramică, urgente 24/7. Experienta 30+ ani. Oferta gratuita!",
+    "Suna la +40 727 416 444 - Servicii profesionale montaj și reparatii acoperisuri in Bucuresti si Ilfov. Dulgherie, tigla ceramică, urgente 24/7. Experienta 30+ ani. Oferta gratuita!",
   keywords:
     "montaj acoperisuri bucuresti, reparatii acoperisuri bucuresti, dulgherie acoperis, tigla ceramica, urgente acoperis, acoperisuri ilfov",
   openGraph: {
-    title: "Montaj și Reparatii Acoperisuri Bucuresti | Servicii Complete",
+    title: "Montaj și Reparatii Acoperisuri Bucuresti | +40 727 416 444",
     description:
-      "Servicii profesionale montaj și reparatii acoperisuri in Bucuresti si Ilfov. Urgențe 24/7, experiență 30+ ani.",
+      "Suna la +40 727 416 444 - Servicii profesionale montaj și reparatii acoperisuri in Bucuresti si Ilfov. Urgențe 24/7, experiență 30+ ani.",
     url: "https://reparatiiacoperisurisimontaj.ro/",
+    images: [
+      {
+        url: "/logo-gab.png",
+        width: 250,
+        height: 250,
+        alt: "Montaj si Reparatii Acoperisuri Logo",
+      },
+    ],
   },
 };
 
