@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Suna la +40 727 416 444 - Montaj si Reparatii Acoperisuri",
     description:
-      "Servicii profesionale de montaj si reparatii acoperisuri in București si oriunde in Romania. Urgențe 24/7.",
+      "Suna la +40 727 416 444 - Servicii profesionale de montaj si reparatii acoperisuri in București si oriunde in Romania. Urgențe 24/7.",
     images: ["/logo-gab.png"],
   },
   generator: "v0.dev",
@@ -72,6 +72,9 @@ export default function RootLayout({
           name="google-site-verification"
           content="_8ZrZAKwTzgbnWURJ1EWaRnKHP2qMGKGBYmtUNGCPG4"
         />
+
+        <link rel="icon" type="image/png" href="/logo-gab.png" />
+        <link rel="apple-touch-icon" href="/logo-gab.png" />
 
         {/* Google tag (gtag.js) - loads Google Ads tag on every page */}
         <Script
